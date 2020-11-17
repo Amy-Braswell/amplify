@@ -1,0 +1,192 @@
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.App {
+  /* text-align: center; */
+  overflow-X: hidden;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  background: url("https://res.cloudinary.com/amy-braswell/image/upload/b_rgb:000000,o_10/v1603234930/iArt-Chicago/Chicago_Bkgrnd_ycg0h7.jpg");  
+  background-color: white;
+  background-size: 1000px;
+}
+
+.App h1 {
+  color: white
+}
+
+/************* Material UI Typography ****************/
+h4.MuiTypography-root {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 1.5vh auto 0;
+  font-size: 1.5em;
+}
+
+span.MuiTypography-root {
+  text-transform: uppercase;
+  font-size: .9em;
+}
+
+/************* Material UI Forms ****************/
+.MuiAlert-message, 
+.MuiAlert-standardSuccess {
+  text-align: left !important;
+}
+
+input:-internal-autofill {
+  position: relative;
+  z-index: 100;
+  border-radius: inherit;
+  appearance: menulist-button;
+  background-color: rgba(0,0,0,0) !important;
+  background-image: none !important;
+}
+
+input:-internal-autofill-selected {
+  background-color: rgba(0,0,0,0) !important;
+  background-image: none !important;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow:0 0 0 50px #fff inset;
+  box-shadow: 0 0 0 50px #fff inset;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px #fff inset;
+  box-shadow: 0 0 0 50px #fff inset;
+}  
+
+.Login_spinner {
+  position: relative;
+  z-index: 500;
+  top: 90px;
+}
+
+.Forgot1_spinner {
+  position: relative;
+  z-index: 500;
+  top: 28px;
+}
+
+.Forgot2_spinner {
+  position: relative;
+  z-index: 500;
+  left: -1%;
+  top: 90px;
+}
+
+.SignUp1_spinner {
+  position: relative;
+  z-index: 500;
+  top: 150px;
+}
+
+.SignUp2_spinner {
+  position: relative;
+  z-index: 500;
+  left: -1%;
+  top: 28px;
+}
+
+.filter-bar {
+  background-color: white;
+  height: auto;
+}
+
+.search-input {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1em;
+  letter-spacing: .05em;
+  outline: none;
+}
+
+.search-media-form {
+  position: relative;
+  top: -15px;
+  padding: 4vh 0;
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* .search-media-group {
+  width: 'auto';
+  height: 'auto';
+  display: 'flex';
+
+  flex-wrap: 'nowrap';
+  flex-direction: 'row',
+} */
+
+.order-input {
+  padding: 3vh 0
+}
+
+.order-input-label {
+  color: black;
+}
+
+/* app header */
+.App-header {
+  background-color: white;
+  position: relative;
+  top: -3vh;
+  padding: 2vh 5% 0;
+}
+
+/* gallery list */
+
+.MuiCard-root {
+  overflow: scroll;
+}
+
+.gallery-list {
+  position: absolute;
+  width: 100%;
+  top: 30vh;
+}
+
+.gallery-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.gallery-card-flex-container {
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.gallery-logo > .MuiAvatar-circle{
+  width: 75px;
+  height: 75px;
+}
+
+.action-buttons-container {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 5vh;
+  margin-bottom: -1vh;
+  bottom: 0;
+}
+
+/* .movie-search {
+  color: white;
+} */
+
+.form-control {
+  padding: 10px;
+  width: 60%;
+} 
